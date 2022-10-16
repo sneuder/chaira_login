@@ -1,9 +1,9 @@
 import { HeaderContainer, Tittle } from "./elements";
 
-const Header = () => {
+const Header = ({tittle}) => {
   return (
     <HeaderContainer>
-      <Tittle></Tittle>
+      <Tittle>{tittle}</Tittle>
     </HeaderContainer>
   );
 };

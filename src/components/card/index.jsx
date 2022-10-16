@@ -1,10 +1,8 @@
 import { CardContainer } from "./elements";
 
-const Card = () => {
+const Card = ({children}) => {
   return (
-    <CardContainer>
-
-    </CardContainer>
+    <CardContainer>{children}</CardContainer>
   )
 }
 

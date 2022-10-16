@@ -1,10 +1,11 @@
 import Card from './card/index';
 import Header from './header/index';
 
-const CardLogin = () => {
+const CardLogin = ({cms}) => {
+  console.log(cms)
   return (
     <Card>
-      <Header />
+      <Header tittle={cms.header}></Header>
     </Card>
   );
 }
