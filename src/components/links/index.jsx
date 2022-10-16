@@ -4,7 +4,7 @@ const Links = ({links}) => {
   return (
     <ContainerLinks>
       {
-        links.map(link => <Link>{link.text}</Link>)
+        links.map(link => <Link href={link.link}>{link.text}</Link>)
       }
     </ContainerLinks>
   )
