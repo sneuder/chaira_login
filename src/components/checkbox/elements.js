@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 import colors from '../../constants/styles/colors';
 
+import { BsCheckLg } from 'react-icons/bs'
+
 export const ContainerCheckBox = styled.div`
   display: flex;
   align-items: center;
@@ -27,4 +29,8 @@ export const CheckBox = styled.input`
 export const Text = styled.label`
   font-size: 14px;
   color: ${colors.tertiary}
+`;
+
+export const Icon = styled(BsCheckLg)`
+
 `;
