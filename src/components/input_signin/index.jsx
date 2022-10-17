@@ -4,10 +4,10 @@ const InputSignin = () => {
   return (
     <ContainerInputs>
       <ContainerInput>
-        <Input type='text' />
+        <Input type='text' placeholder="Usuario"/>
       </ContainerInput>
       <ContainerInput>
-        <Input type='text' />
+        <Input type='password' placeholder="Contraseña"/>
       </ContainerInput>
     </ContainerInputs>
   );

@@ -11,6 +11,7 @@ export const styleGlobal = css`
     border: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    appearance: none;
   }
 
   body {
@@ -23,5 +24,9 @@ export const styleGlobal = css`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  input {
+    transition: all 0.2s ease-out;
   }
 `;
