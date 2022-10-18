@@ -1,10 +1,18 @@
-import { ContainerCheckBox, CheckBox, Text, Icon } from "./elements";
+import {
+  ContainerCheckBox,
+  ContainerTick,
+  CheckBox,
+  Text,
+  Icon,
+} from "./elements";
 
 const RememberCheck = () => {
   return (
     <ContainerCheckBox>
-      <CheckBox type='checkbox'/>
-      <Icon />
+      <ContainerTick>
+        <CheckBox type="checkbox" required />
+        <Icon />
+      </ContainerTick>
       <Text>No cerrar sesión</Text>
     </ContainerCheckBox>
   );
