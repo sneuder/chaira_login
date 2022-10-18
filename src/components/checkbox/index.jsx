@@ -10,7 +10,7 @@ const RememberCheck = () => {
   return (
     <ContainerCheckBox>
       <ContainerTick>
-        <CheckBox type="checkbox" required />
+        <CheckBox type="checkbox" />
         <Icon />
       </ContainerTick>
       <Text>No cerrar sesión</Text>

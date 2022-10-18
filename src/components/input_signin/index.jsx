@@ -5,11 +5,11 @@ const InputSignin = () => {
     <ContainerInputs>
       <ContainerInput>
         <UserIcon />
-        <Input type='text' placeholder="Usuario"/>
+        <Input type='text' placeholder="Usuario" required/>
       </ContainerInput>
       <ContainerInput>
         <PadlockIcon />
-        <Input type='password' placeholder="Contraseña"/>
+        <Input type='password' placeholder="Contraseña" required/>
       </ContainerInput>
     </ContainerInputs>
   );
