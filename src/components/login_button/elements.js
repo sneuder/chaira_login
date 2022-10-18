@@ -12,4 +12,5 @@ export const Button = styled.button`
   font-weight: 600;
   color: ${colors.primary};
   background-color: ${colors.secondary};
+  cursor: pointer;
 `;

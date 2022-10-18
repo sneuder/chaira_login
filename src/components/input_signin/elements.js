@@ -17,6 +17,10 @@ export const ContainerInput = styled.div`
   display: flex;
   align-items: center;
   gap: 12px;
+
+  &:focus {
+    border-color: ${colors.secondary};
+  }
 `;
 
 export const Input = styled.input`
@@ -24,9 +28,11 @@ export const Input = styled.input`
 `;
 
 export const UserIcon = styled(FaUserAlt)`
-  color: ${colors.quaternary}
+  color: ${colors.quaternary};
+  font-size: 18px;
 `;
 
 export const PadlockIcon = styled(FaLock)`
-  color: ${colors.quaternary}
+  color: ${colors.quaternary};
+  font-size: 18px;
 `;
