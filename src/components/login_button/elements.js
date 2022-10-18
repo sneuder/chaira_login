@@ -15,4 +15,10 @@ export const Button = styled.button`
   color: ${colors.primary};
   background-color: ${colors.secondary};
   cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: ${colors.hover.secondary};
+  }
 `;
