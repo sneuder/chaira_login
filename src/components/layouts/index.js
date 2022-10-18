@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: ${breakPoints.phone}px){
     width: 100%;
+    padding: 0 10px;
   }
 `;
 
@@ -14,4 +15,8 @@ export const ElementsLogin = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media screen and (max-width: ${breakPoints.phone}px){
+    padding-top: 55px;
+  }
 `;
