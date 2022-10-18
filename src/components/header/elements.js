@@ -2,7 +2,8 @@ import styled from "@emotion/styled";
 import colors from "../../constants/styles/colors";
 
 export const HeaderContainer = styled.div`
-  width: 100%;
+  width: 90%;
+  margin: auto;
 `;
 
 export const Tittle = styled.h1`
