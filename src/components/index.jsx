@@ -1,4 +1,4 @@
-import { Wrapper, ElementsLogin } from "./layouts/index";
+import { Wrapper, ElementsForm } from "./layouts/index";
 
 import Card from "./card/index";
 import Logo from "./logo/index";
@@ -13,14 +13,14 @@ const CardLogin = ({ cms }) => {
   return (
     <Wrapper>
       <Card>
-        <ElementsLogin>
+        <ElementsForm>
           <Logo />
           <Header tittle={cms.header} />
           <InputSignin />
           <RememberCheck />
           <Button />
           <Links links={cms.links} />
-        </ElementsLogin>
+        </ElementsForm>
       </Card>
       <Footer footer={cms.copy_rights} />
     </Wrapper>

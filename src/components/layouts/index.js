@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const ElementsLogin = styled.div`
+export const ElementsForm = styled.form`
   padding: 70px 30px 20px;
   display: flex;
   flex-direction: column;
