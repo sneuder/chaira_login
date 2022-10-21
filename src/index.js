@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import App from "./app";
+import App from "./app.js";
 
 import { Global } from "@emotion/react";
 import { styleGlobal } from "./constants/styles/global";
